@@ -1,0 +1,95 @@
+body {
+  background: url('../organic-tiles.png');
+  font-size: 18px;
+  line-height: 34px;
+  font-family: 'Ariel', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.nav-item {
+  color: #999;
+  border-left: 1px solid #efefef;
+  text-decoration: none;
+  margin-left: 15px;
+  line-height: 18px;
+  padding-left: 15px;
+}
+
+.nav-item:first-child {
+  border-left: 0 none;
+}
+
+h1, h2, h2, p {
+  margin-bottom: 20px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-weight: 700;
+}
+
+h1 {
+  border-bottom: 3px solid #ccc;
+  line-height: 49px;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+h2, h3 {
+  font-size: 22px;
+}
+
+#main-container {
+  padding-top: 30px;
+}
+
+.main-section{
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+  max-width: 650px;
+  width: 100%;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+.sidebar {
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+h3, .sidebar, h2 {
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #eee;
+  line-height: 22px;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px
+}
+
+.social:last-child {
+  margin-right: 0;
+}
