@@ -1,0 +1,202 @@
+body {
+  background: url('../organic-tiles.png');
+  font-family: 'Ariel', 'Helvetica Neue', Helvetica, sans-serif;
+  margin-bottom: 150px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+#logo {
+  height: 100%;
+  padding: 10px;
+  margin-left: 0;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background: #4aaaa5;
+}
+
+.navbar-right-custom {
+  padding-top: 6px;
+  padding-right: 20px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: lighter;
+}
+
+.navbar-custom {
+  background-color: #fff;
+}
+
+.navbar-nav > li > a:hover {
+  color: #4aaaa5;
+}
+
+/*About Me styling*/
+
+.about-me-header {
+  margin-bottom: 33px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+.about-me-content {
+  width: 100%;
+  padding: 30px;
+  margin-top: 32px;
+  background-color: #fff;
+}
+
+.about-me-content > p {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #bbc;
+}
+
+#p-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/*connect with me styling*/
+
+#connect-with-me-area {
+  width: 100%;
+  padding: 30px 30px 43px;
+  margin-top: 32px;
+  background-color: #fff;
+}
+
+.connect-with-me-header {
+  margin-bottom: 15px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #4aaaa5;
+  text-align: center;
+}
+
+.connect-with-me-photo {
+  width: 70px;
+  height: 70px;
+  margin-right: 30px;
+}
+
+.connect-with-me-photo:last-child {
+    margin-right: 0;
+}
+
+#images {
+  padding-top: 15px;
+  text-align: center;
+}
+
+
+footer {
+  color: #fff;
+  background: #666;
+  clear: both;
+  border-top: 8px solid #4aaaa5;
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+
+/*Contact styling*/
+
+.contact-form {
+  width: 100%;
+  padding: 45px 10px 25px 31px;
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+.contact-form-header,
+.port-header {
+  margin-bottom: 33px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+#name_input,
+#mail_input,
+#msg {
+  width: 95%;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#msg {
+  height: 200px;
+  border-color: #bbc;
+}
+
+.label-name,
+.label-msg,
+.label-mail {
+  font-size: 17px;
+  color: #bbc;
+}
+
+.contact-hr {
+  margin-bottom: 30px;
+}
+
+.submit-btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fff;
+  background-color: #4aaaa5;
+  border: 0;
+}
+
+/*Portfolio styling*/
+
+#portfolio-area {
+  width: 100%;
+  padding: 45px 10px 25px 31px;
+  margin-top: 30px;
+  background-color: #fff;
+  height: 100%;
+}
+
+.port-hr {
+  margin-bottom: 20px;
+}
+
+.work {
+  overflow: auto;
+  float: left;
+  position: relative;
+  margin: 10px 30px 20px;
+}
+
+.work img {
+  width: 200px;
+  height: auto;
+  border: 0 none;
+  opacity: .8;
+  margin-top: 10px;
+  float: left;
+  margin-right: 25px;
+}
+
+
