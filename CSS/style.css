@@ -214,4 +214,31 @@ footer {
   width: 274px;
 }
 
+/*Media Queries*/
+
+@media only screen and (max-width: 980px) {
+    .container {
+      max-width: 768px;
+      padding: 0 20px;
+    }
+
+    .work img h3 {
+      width: 100%;
+    }
+
+    .work:nth-child(even) {
+      margin-left: 0;
+    }
+
+    .connect-photo {
+      margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .connect-photo {
+    width: 60px;
+    height: 60px;  
+  }
+}
 
