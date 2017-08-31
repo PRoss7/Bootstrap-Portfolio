@@ -37,7 +37,7 @@ html {
 
 /*About Me styling*/
 
-.about-me-header {
+.about-header {
   margin-bottom: 33px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 32px;
@@ -45,18 +45,18 @@ html {
   color: #4aaaa5;
 }
 
-.about-me-content {
+.about-content {
   width: 100%;
   padding: 30px;
   margin-top: 32px;
   background-color: #fff;
 }
 
-.about-me-content > p {
+.about-content > p {
   padding-top: 20px;
   font-size: 16px;
   line-height: 30px;
-  color: #bbc;
+  color: #808080;
 }
 
 #p-image {
@@ -69,14 +69,14 @@ html {
 
 /*connect with me styling*/
 
-#connect-with-me-area {
+#connect-area {
   width: 100%;
   padding: 30px 30px 43px;
   margin-top: 32px;
   background-color: #fff;
 }
 
-.connect-with-me-header {
+.connect-header {
   margin-bottom: 15px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 25px;
@@ -85,13 +85,13 @@ html {
   text-align: center;
 }
 
-.connect-with-me-photo {
+.connect-photo {
   width: 70px;
   height: 70px;
   margin-right: 30px;
 }
 
-.connect-with-me-photo:last-child {
+.connect-photo:last-child {
     margin-right: 0;
 }
 
@@ -125,8 +125,8 @@ footer {
   background-color: #fff;
 }
 
-.contact-form-header,
-.port-header {
+.contact-header,
+.portfolio-header {
   margin-bottom: 33px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 32px;
@@ -152,7 +152,7 @@ footer {
 .label-msg,
 .label-mail {
   font-size: 17px;
-  color: #bbc;
+  color: #808080;
 }
 
 .contact-hr {
@@ -170,15 +170,17 @@ footer {
 
 /*Portfolio styling*/
 
-#portfolio-area {
+#portfolio-section {
+  padding: 30px;
+  margin-top: 32px;
+  background: #fff;
+  border: 1px solid #ddd;
+  max-width: 650px;
   width: 100%;
-  padding: 45px 10px 25px 31px;
-  margin-top: 30px;
-  background-color: #fff;
   height: 100%;
 }
 
-.port-hr {
+.portfolio-hr {
   margin-bottom: 20px;
 }
 
@@ -186,17 +188,30 @@ footer {
   overflow: auto;
   float: left;
   position: relative;
-  margin: 10px 30px 20px;
+  margin: 20px 0 25px;
+}
+
+.work:nth-child(even) {
+  margin-left: 25px;
 }
 
 .work img {
-  width: 200px;
-  height: auto;
   border: 0 none;
   opacity: .8;
-  margin-top: 10px;
-  float: left;
-  margin-right: 25px;
+  width: 274px;
+}
+
+.work h3 {
+  background: #4aaaa5;
+  color: #fff;
+  border-bottom: 0;
+  position: absolute;
+  text-align: center;
+  padding: 15px;
+  line-height: 30px;
+  bottom: 10px;
+  margin-bottom: 0;
+  width: 274px;
 }
 
 
